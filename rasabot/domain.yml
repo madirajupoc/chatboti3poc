@@ -1,0 +1,42 @@
+slots:
+  environment:
+    type: text
+
+intents:
+  - greet
+  - greetresponse
+  - query
+  - domainresponse
+  - complete  
+ 
+entities:
+ - environment
+ 
+actions:
+- utter_domain 
+- utter_greet 
+- utter_greetresponse 
+- utter_complete
+- utter_hold
+- action_query_response
+ 
+templates:
+  utter_domain:
+  - text: "Which domain are you from?" 
+  
+  utter_greet:
+  - text: "Hey Vijay! How are you?"
+  - text: "Vijay, Are you good?"
+  - text: "How is your work Vijay?"
+
+  utter_complete:
+  - text: "Bye"
+  - text: "Good Day"
+  - text: "Have a nice day"
+
+  utter_greetresponse:
+  - text: "Ok. How can i help you today?"
+  - text: "What can i do today? "
+  
+  utter_hold:
+  - text:"hold a sec please " 

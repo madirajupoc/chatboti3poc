@@ -1,0 +1,986 @@
+2019-11-17 11:21:46,766 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-11-17 11:29:58,288 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 1133, in run
+    serve(**server_settings)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 885, in serve
+    loop.run_forever()
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 422, in run_forever
+    self._run_once()
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1396, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\engineio\client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-11-17 19:15:59,776 [INFO ]  Server initialized for sanic.
+2019-11-17 19:15:59,804 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-11-17 19:16:07,020 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2019-11-17 19:16:17,341 [INFO ]  4262aa4208964d5798913f9a039bb998: Sending packet OPEN data {'sid': '4262aa4208964d5798913f9a039bb998', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:17,345 [INFO ]  4262aa4208964d5798913f9a039bb998: Sending packet MESSAGE data 0
+2019-11-17 19:16:18,368 [INFO ]  0c69d755afa545ce80b61146736da3e5: Sending packet OPEN data {'sid': '0c69d755afa545ce80b61146736da3e5', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:18,372 [INFO ]  0c69d755afa545ce80b61146736da3e5: Sending packet MESSAGE data 0
+2019-11-17 19:16:19,902 [INFO ]  bf6cadabf14f4f3d9ab040611baec6c1: Sending packet OPEN data {'sid': 'bf6cadabf14f4f3d9ab040611baec6c1', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:19,904 [INFO ]  bf6cadabf14f4f3d9ab040611baec6c1: Sending packet MESSAGE data 0
+2019-11-17 19:16:21,026 [INFO ]  dc9f8a29b685405197068ea590535a41: Sending packet OPEN data {'sid': 'dc9f8a29b685405197068ea590535a41', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:21,031 [INFO ]  dc9f8a29b685405197068ea590535a41: Sending packet MESSAGE data 0
+2019-11-17 19:16:22,335 [INFO ]  fc8c5fb5f6a74ba6bb0e39fd37619880: Sending packet OPEN data {'sid': 'fc8c5fb5f6a74ba6bb0e39fd37619880', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:22,339 [INFO ]  fc8c5fb5f6a74ba6bb0e39fd37619880: Sending packet MESSAGE data 0
+2019-11-17 19:16:25,046 [INFO ]  ff183a7373094323844197312139e048: Sending packet OPEN data {'sid': 'ff183a7373094323844197312139e048', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:25,051 [INFO ]  ff183a7373094323844197312139e048: Sending packet MESSAGE data 0
+2019-11-17 19:16:27,311 [INFO ]  8da593fb39f64dc2a0fe331c7290f5a0: Sending packet OPEN data {'sid': '8da593fb39f64dc2a0fe331c7290f5a0', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:27,314 [INFO ]  8da593fb39f64dc2a0fe331c7290f5a0: Sending packet MESSAGE data 0
+2019-11-17 19:16:32,335 [INFO ]  a5f4f455f689444aaa517d7fc0ac3e08: Sending packet OPEN data {'sid': 'a5f4f455f689444aaa517d7fc0ac3e08', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:32,341 [INFO ]  a5f4f455f689444aaa517d7fc0ac3e08: Sending packet MESSAGE data 0
+2019-11-17 19:16:36,470 [INFO ]  b0285473a1e34152af13c80229a9a58b: Sending packet OPEN data {'sid': 'b0285473a1e34152af13c80229a9a58b', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:36,474 [INFO ]  b0285473a1e34152af13c80229a9a58b: Sending packet MESSAGE data 0
+2019-11-17 19:16:37,482 [INFO ]  cbd4533613884e2c9497e740b76c6c28: Sending packet OPEN data {'sid': 'cbd4533613884e2c9497e740b76c6c28', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:37,490 [INFO ]  cbd4533613884e2c9497e740b76c6c28: Sending packet MESSAGE data 0
+2019-11-17 19:16:40,299 [INFO ]  ff2b0a3ae65c449f978d75d29b680bf2: Sending packet OPEN data {'sid': 'ff2b0a3ae65c449f978d75d29b680bf2', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:40,304 [INFO ]  ff2b0a3ae65c449f978d75d29b680bf2: Sending packet MESSAGE data 0
+2019-11-17 19:16:44,940 [INFO ]  eca46883233e416599c44b6d0a650ea5: Sending packet OPEN data {'sid': 'eca46883233e416599c44b6d0a650ea5', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:44,943 [INFO ]  eca46883233e416599c44b6d0a650ea5: Sending packet MESSAGE data 0
+2019-11-17 19:16:49,961 [INFO ]  7d8b6cc0b75943b2b03eb74efc79dc04: Sending packet OPEN data {'sid': '7d8b6cc0b75943b2b03eb74efc79dc04', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:49,965 [INFO ]  7d8b6cc0b75943b2b03eb74efc79dc04: Sending packet MESSAGE data 0
+2019-11-17 19:16:55,293 [INFO ]  dc3c738fb62d4f9db99725be18633919: Sending packet OPEN data {'sid': 'dc3c738fb62d4f9db99725be18633919', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:16:55,301 [INFO ]  dc3c738fb62d4f9db99725be18633919: Sending packet MESSAGE data 0
+2019-11-17 19:17:00,324 [INFO ]  ad0596971ad643cd94c4a2b8623a71b2: Sending packet OPEN data {'sid': 'ad0596971ad643cd94c4a2b8623a71b2', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:00,329 [INFO ]  ad0596971ad643cd94c4a2b8623a71b2: Sending packet MESSAGE data 0
+2019-11-17 19:17:05,652 [INFO ]  2f5a0484a46e4800974998aa190226a5: Sending packet OPEN data {'sid': '2f5a0484a46e4800974998aa190226a5', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:05,660 [INFO ]  2f5a0484a46e4800974998aa190226a5: Sending packet MESSAGE data 0
+2019-11-17 19:17:10,681 [INFO ]  26b4f1cc85064e91836f00bcae30c9e2: Sending packet OPEN data {'sid': '26b4f1cc85064e91836f00bcae30c9e2', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:10,691 [INFO ]  26b4f1cc85064e91836f00bcae30c9e2: Sending packet MESSAGE data 0
+2019-11-17 19:17:16,020 [INFO ]  e05c8f08480445babc8c87500b7044c9: Sending packet OPEN data {'sid': 'e05c8f08480445babc8c87500b7044c9', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:16,027 [INFO ]  e05c8f08480445babc8c87500b7044c9: Sending packet MESSAGE data 0
+2019-11-17 19:17:17,346 [INFO ]  4262aa4208964d5798913f9a039bb998: Client is gone, closing socket
+2019-11-17 19:17:17,349 [INFO ]  4262aa4208964d5798913f9a039bb998: Client is gone, closing socket
+2019-11-17 19:17:20,688 [INFO ]  0c69d755afa545ce80b61146736da3e5: Client is gone, closing socket
+2019-11-17 19:17:20,694 [INFO ]  0c69d755afa545ce80b61146736da3e5: Client is gone, closing socket
+2019-11-17 19:17:21,058 [INFO ]  98d29559de984bfba083a44d8fc91f27: Sending packet OPEN data {'sid': '98d29559de984bfba083a44d8fc91f27', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:21,070 [INFO ]  98d29559de984bfba083a44d8fc91f27: Sending packet MESSAGE data 0
+2019-11-17 19:17:24,024 [INFO ]  bf6cadabf14f4f3d9ab040611baec6c1: Client is gone, closing socket
+2019-11-17 19:17:24,028 [INFO ]  bf6cadabf14f4f3d9ab040611baec6c1: Client is gone, closing socket
+2019-11-17 19:17:26,398 [INFO ]  cf0ee19ac4ec44a5b549949e191a07a9: Sending packet OPEN data {'sid': 'cf0ee19ac4ec44a5b549949e191a07a9', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:26,408 [INFO ]  cf0ee19ac4ec44a5b549949e191a07a9: Sending packet MESSAGE data 0
+2019-11-17 19:17:27,371 [INFO ]  dc9f8a29b685405197068ea590535a41: Client is gone, closing socket
+2019-11-17 19:17:27,379 [INFO ]  dc9f8a29b685405197068ea590535a41: Client is gone, closing socket
+2019-11-17 19:17:30,717 [INFO ]  fc8c5fb5f6a74ba6bb0e39fd37619880: Client is gone, closing socket
+2019-11-17 19:17:30,722 [INFO ]  fc8c5fb5f6a74ba6bb0e39fd37619880: Client is gone, closing socket
+2019-11-17 19:17:31,437 [INFO ]  b31e29e12fda4e66936b058dcf8061da: Sending packet OPEN data {'sid': 'b31e29e12fda4e66936b058dcf8061da', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:31,444 [INFO ]  b31e29e12fda4e66936b058dcf8061da: Sending packet MESSAGE data 0
+2019-11-17 19:17:34,058 [INFO ]  ff183a7373094323844197312139e048: Client is gone, closing socket
+2019-11-17 19:17:34,061 [INFO ]  ff183a7373094323844197312139e048: Client is gone, closing socket
+2019-11-17 19:17:36,773 [INFO ]  c19cac9daad04b8588882c31a16c9cd3: Sending packet OPEN data {'sid': 'c19cac9daad04b8588882c31a16c9cd3', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:36,779 [INFO ]  c19cac9daad04b8588882c31a16c9cd3: Sending packet MESSAGE data 0
+2019-11-17 19:17:37,400 [INFO ]  8da593fb39f64dc2a0fe331c7290f5a0: Client is gone, closing socket
+2019-11-17 19:17:37,404 [INFO ]  8da593fb39f64dc2a0fe331c7290f5a0: Client is gone, closing socket
+2019-11-17 19:17:40,744 [INFO ]  a5f4f455f689444aaa517d7fc0ac3e08: Client is gone, closing socket
+2019-11-17 19:17:40,749 [INFO ]  a5f4f455f689444aaa517d7fc0ac3e08: Client is gone, closing socket
+2019-11-17 19:17:41,214 [INFO ]  b9ac5dbc847848e8ade70b693b88a693: Sending packet OPEN data {'sid': 'b9ac5dbc847848e8ade70b693b88a693', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:41,217 [INFO ]  b9ac5dbc847848e8ade70b693b88a693: Sending packet MESSAGE data 0
+2019-11-17 19:17:41,818 [INFO ]  fbffbfa9623845079c63684bf300cdec: Sending packet OPEN data {'sid': 'fbffbfa9623845079c63684bf300cdec', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:41,821 [INFO ]  fbffbfa9623845079c63684bf300cdec: Sending packet MESSAGE data 0
+2019-11-17 19:17:43,141 [INFO ]  ded762d5def1446c81304f6667567d1b: Sending packet OPEN data {'sid': 'ded762d5def1446c81304f6667567d1b', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:43,148 [INFO ]  ded762d5def1446c81304f6667567d1b: Sending packet MESSAGE data 0
+2019-11-17 19:17:44,091 [INFO ]  b0285473a1e34152af13c80229a9a58b: Client is gone, closing socket
+2019-11-17 19:17:44,094 [INFO ]  b0285473a1e34152af13c80229a9a58b: Client is gone, closing socket
+2019-11-17 19:17:47,433 [INFO ]  cbd4533613884e2c9497e740b76c6c28: Client is gone, closing socket
+2019-11-17 19:17:47,435 [INFO ]  cbd4533613884e2c9497e740b76c6c28: Client is gone, closing socket
+2019-11-17 19:17:48,476 [INFO ]  85e3fbfc36da4e2994124dd96b189f8f: Sending packet OPEN data {'sid': '85e3fbfc36da4e2994124dd96b189f8f', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:48,481 [INFO ]  85e3fbfc36da4e2994124dd96b189f8f: Sending packet MESSAGE data 0
+2019-11-17 19:17:50,777 [INFO ]  ff2b0a3ae65c449f978d75d29b680bf2: Client is gone, closing socket
+2019-11-17 19:17:50,781 [INFO ]  ff2b0a3ae65c449f978d75d29b680bf2: Client is gone, closing socket
+2019-11-17 19:17:53,502 [INFO ]  0bed8ce42cad418b88f3d86b80b40662: Sending packet OPEN data {'sid': '0bed8ce42cad418b88f3d86b80b40662', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:53,512 [INFO ]  0bed8ce42cad418b88f3d86b80b40662: Sending packet MESSAGE data 0
+2019-11-17 19:17:54,123 [INFO ]  eca46883233e416599c44b6d0a650ea5: Client is gone, closing socket
+2019-11-17 19:17:54,125 [INFO ]  eca46883233e416599c44b6d0a650ea5: Client is gone, closing socket
+2019-11-17 19:17:57,465 [INFO ]  7d8b6cc0b75943b2b03eb74efc79dc04: Client is gone, closing socket
+2019-11-17 19:17:57,469 [INFO ]  7d8b6cc0b75943b2b03eb74efc79dc04: Client is gone, closing socket
+2019-11-17 19:17:58,841 [INFO ]  40f2c07c51124589ac93d88f8bc74022: Sending packet OPEN data {'sid': '40f2c07c51124589ac93d88f8bc74022', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:17:58,850 [INFO ]  40f2c07c51124589ac93d88f8bc74022: Sending packet MESSAGE data 0
+2019-11-17 19:18:00,816 [INFO ]  dc3c738fb62d4f9db99725be18633919: Client is gone, closing socket
+2019-11-17 19:18:00,821 [INFO ]  dc3c738fb62d4f9db99725be18633919: Client is gone, closing socket
+2019-11-17 19:18:04,173 [INFO ]  ad0596971ad643cd94c4a2b8623a71b2: Client is gone, closing socket
+2019-11-17 19:18:04,178 [INFO ]  ad0596971ad643cd94c4a2b8623a71b2: Client is gone, closing socket
+2019-11-17 19:18:04,184 [INFO ]  364f1150f69149ca8c0aef5cd883a599: Sending packet OPEN data {'sid': '364f1150f69149ca8c0aef5cd883a599', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:04,190 [INFO ]  364f1150f69149ca8c0aef5cd883a599: Sending packet MESSAGE data 0
+2019-11-17 19:18:07,512 [INFO ]  2f5a0484a46e4800974998aa190226a5: Client is gone, closing socket
+2019-11-17 19:18:07,516 [INFO ]  2f5a0484a46e4800974998aa190226a5: Client is gone, closing socket
+2019-11-17 19:18:09,216 [INFO ]  dbf44cc75c0b4b5996a9cc28413c04a8: Sending packet OPEN data {'sid': 'dbf44cc75c0b4b5996a9cc28413c04a8', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:09,221 [INFO ]  dbf44cc75c0b4b5996a9cc28413c04a8: Sending packet MESSAGE data 0
+2019-11-17 19:18:10,859 [INFO ]  26b4f1cc85064e91836f00bcae30c9e2: Client is gone, closing socket
+2019-11-17 19:18:10,862 [INFO ]  26b4f1cc85064e91836f00bcae30c9e2: Client is gone, closing socket
+2019-11-17 19:18:14,204 [INFO ]  e05c8f08480445babc8c87500b7044c9: Client is gone, closing socket
+2019-11-17 19:18:14,209 [INFO ]  e05c8f08480445babc8c87500b7044c9: Client is gone, closing socket
+2019-11-17 19:18:14,889 [INFO ]  b4a0e882b0224cf499e949c10395700d: Sending packet OPEN data {'sid': 'b4a0e882b0224cf499e949c10395700d', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:14,902 [INFO ]  b4a0e882b0224cf499e949c10395700d: Sending packet MESSAGE data 0
+2019-11-17 19:18:19,923 [INFO ]  4d654d83165b44a388bd5240f940b0cf: Sending packet OPEN data {'sid': '4d654d83165b44a388bd5240f940b0cf', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:19,932 [INFO ]  4d654d83165b44a388bd5240f940b0cf: Sending packet MESSAGE data 0
+2019-11-17 19:18:25,261 [INFO ]  f26ae2eeee5f48df8b07bc80fdd45356: Sending packet OPEN data {'sid': 'f26ae2eeee5f48df8b07bc80fdd45356', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:25,267 [INFO ]  f26ae2eeee5f48df8b07bc80fdd45356: Sending packet MESSAGE data 0
+2019-11-17 19:18:30,289 [INFO ]  410a470b8e924d9e91bdfabbc4cb4ffb: Sending packet OPEN data {'sid': '410a470b8e924d9e91bdfabbc4cb4ffb', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:30,296 [INFO ]  410a470b8e924d9e91bdfabbc4cb4ffb: Sending packet MESSAGE data 0
+2019-11-17 19:18:35,626 [INFO ]  483dcdc867f143659b82d1f09061e076: Sending packet OPEN data {'sid': '483dcdc867f143659b82d1f09061e076', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:35,634 [INFO ]  483dcdc867f143659b82d1f09061e076: Sending packet MESSAGE data 0
+2019-11-17 19:18:40,658 [INFO ]  929cc9919ab04ebf91bfa0660df0982f: Sending packet OPEN data {'sid': '929cc9919ab04ebf91bfa0660df0982f', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:40,666 [INFO ]  929cc9919ab04ebf91bfa0660df0982f: Sending packet MESSAGE data 0
+2019-11-17 19:18:45,990 [INFO ]  54e327342dcf405ca0edcfb8eb1dde9f: Sending packet OPEN data {'sid': '54e327342dcf405ca0edcfb8eb1dde9f', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:45,996 [INFO ]  54e327342dcf405ca0edcfb8eb1dde9f: Sending packet MESSAGE data 0
+2019-11-17 19:18:51,021 [INFO ]  2a5a3d9466074b6189efb8249782d445: Sending packet OPEN data {'sid': '2a5a3d9466074b6189efb8249782d445', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:51,026 [INFO ]  2a5a3d9466074b6189efb8249782d445: Sending packet MESSAGE data 0
+2019-11-17 19:18:52,374 [INFO ]  98d29559de984bfba083a44d8fc91f27: Client is gone, closing socket
+2019-11-17 19:18:52,378 [INFO ]  98d29559de984bfba083a44d8fc91f27: Client is gone, closing socket
+2019-11-17 19:18:54,313 [INFO ]  cf0ee19ac4ec44a5b549949e191a07a9: Client is gone, closing socket
+2019-11-17 19:18:54,316 [INFO ]  cf0ee19ac4ec44a5b549949e191a07a9: Client is gone, closing socket
+2019-11-17 19:18:56,255 [INFO ]  b31e29e12fda4e66936b058dcf8061da: Client is gone, closing socket
+2019-11-17 19:18:56,259 [INFO ]  b31e29e12fda4e66936b058dcf8061da: Client is gone, closing socket
+2019-11-17 19:18:56,350 [INFO ]  bddff09915b54f269861de6d92c5b325: Sending packet OPEN data {'sid': 'bddff09915b54f269861de6d92c5b325', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:18:56,360 [INFO ]  bddff09915b54f269861de6d92c5b325: Sending packet MESSAGE data 0
+2019-11-17 19:18:58,189 [INFO ]  c19cac9daad04b8588882c31a16c9cd3: Client is gone, closing socket
+2019-11-17 19:18:58,193 [INFO ]  c19cac9daad04b8588882c31a16c9cd3: Client is gone, closing socket
+2019-11-17 19:19:00,131 [INFO ]  b9ac5dbc847848e8ade70b693b88a693: Client is gone, closing socket
+2019-11-17 19:19:00,134 [INFO ]  b9ac5dbc847848e8ade70b693b88a693: Client is gone, closing socket
+2019-11-17 19:19:01,381 [INFO ]  49f19c9dbce2454c91b525da2d45f7f4: Sending packet OPEN data {'sid': '49f19c9dbce2454c91b525da2d45f7f4', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:01,387 [INFO ]  49f19c9dbce2454c91b525da2d45f7f4: Sending packet MESSAGE data 0
+2019-11-17 19:19:02,066 [INFO ]  fbffbfa9623845079c63684bf300cdec: Client is gone, closing socket
+2019-11-17 19:19:02,069 [INFO ]  fbffbfa9623845079c63684bf300cdec: Client is gone, closing socket
+2019-11-17 19:19:04,000 [INFO ]  ded762d5def1446c81304f6667567d1b: Client is gone, closing socket
+2019-11-17 19:19:04,003 [INFO ]  ded762d5def1446c81304f6667567d1b: Client is gone, closing socket
+2019-11-17 19:19:05,942 [INFO ]  85e3fbfc36da4e2994124dd96b189f8f: Client is gone, closing socket
+2019-11-17 19:19:05,947 [INFO ]  85e3fbfc36da4e2994124dd96b189f8f: Client is gone, closing socket
+2019-11-17 19:19:06,709 [INFO ]  f1dcbbb160f94747b92a3fffc88234b5: Sending packet OPEN data {'sid': 'f1dcbbb160f94747b92a3fffc88234b5', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:06,715 [INFO ]  f1dcbbb160f94747b92a3fffc88234b5: Sending packet MESSAGE data 0
+2019-11-17 19:19:07,878 [INFO ]  0bed8ce42cad418b88f3d86b80b40662: Client is gone, closing socket
+2019-11-17 19:19:07,882 [INFO ]  0bed8ce42cad418b88f3d86b80b40662: Client is gone, closing socket
+2019-11-17 19:19:09,825 [INFO ]  40f2c07c51124589ac93d88f8bc74022: Client is gone, closing socket
+2019-11-17 19:19:09,830 [INFO ]  40f2c07c51124589ac93d88f8bc74022: Client is gone, closing socket
+2019-11-17 19:19:11,736 [INFO ]  bebcab00f0fe46baaeeacf6fa088d6d5: Sending packet OPEN data {'sid': 'bebcab00f0fe46baaeeacf6fa088d6d5', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:11,745 [INFO ]  bebcab00f0fe46baaeeacf6fa088d6d5: Sending packet MESSAGE data 0
+2019-11-17 19:19:11,751 [INFO ]  364f1150f69149ca8c0aef5cd883a599: Client is gone, closing socket
+2019-11-17 19:19:11,756 [INFO ]  364f1150f69149ca8c0aef5cd883a599: Client is gone, closing socket
+2019-11-17 19:19:13,689 [INFO ]  dbf44cc75c0b4b5996a9cc28413c04a8: Client is gone, closing socket
+2019-11-17 19:19:13,693 [INFO ]  dbf44cc75c0b4b5996a9cc28413c04a8: Client is gone, closing socket
+2019-11-17 19:19:15,634 [INFO ]  b4a0e882b0224cf499e949c10395700d: Client is gone, closing socket
+2019-11-17 19:19:15,639 [INFO ]  b4a0e882b0224cf499e949c10395700d: Client is gone, closing socket
+2019-11-17 19:19:17,071 [INFO ]  5327388bdb4447b697ac53051d166d20: Sending packet OPEN data {'sid': '5327388bdb4447b697ac53051d166d20', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:17,081 [INFO ]  5327388bdb4447b697ac53051d166d20: Sending packet MESSAGE data 0
+2019-11-17 19:19:22,105 [INFO ]  869ac5000b54441b8bd24555ee949d59: Sending packet OPEN data {'sid': '869ac5000b54441b8bd24555ee949d59', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:22,110 [INFO ]  869ac5000b54441b8bd24555ee949d59: Sending packet MESSAGE data 0
+2019-11-17 19:19:27,435 [INFO ]  bc0d15bf780b476ea739bee8e298688d: Sending packet OPEN data {'sid': 'bc0d15bf780b476ea739bee8e298688d', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:27,443 [INFO ]  bc0d15bf780b476ea739bee8e298688d: Sending packet MESSAGE data 0
+2019-11-17 19:19:32,468 [INFO ]  b1b26ede4c734992ab0ea5343add08f0: Sending packet OPEN data {'sid': 'b1b26ede4c734992ab0ea5343add08f0', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:32,473 [INFO ]  b1b26ede4c734992ab0ea5343add08f0: Sending packet MESSAGE data 0
+2019-11-17 19:19:38,372 [INFO ]  2a4445a4b8014ca7bf1dd40fae02853b: Sending packet OPEN data {'sid': '2a4445a4b8014ca7bf1dd40fae02853b', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:38,381 [INFO ]  2a4445a4b8014ca7bf1dd40fae02853b: Sending packet MESSAGE data 0
+2019-11-17 19:19:45,316 [INFO ]  30289313049d40ca88585a3cfc368597: Sending packet OPEN data {'sid': '30289313049d40ca88585a3cfc368597', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:45,319 [INFO ]  30289313049d40ca88585a3cfc368597: Sending packet MESSAGE data 0
+2019-11-17 19:19:52,018 [INFO ]  e98fffce509346b8a7c8cadf5b4cbbd2: Sending packet OPEN data {'sid': 'e98fffce509346b8a7c8cadf5b4cbbd2', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:52,025 [INFO ]  e98fffce509346b8a7c8cadf5b4cbbd2: Sending packet MESSAGE data 0
+2019-11-17 19:19:58,323 [INFO ]  f3a007189ed44299a7526093ee9c1a42: Sending packet OPEN data {'sid': 'f3a007189ed44299a7526093ee9c1a42', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:19:58,331 [INFO ]  f3a007189ed44299a7526093ee9c1a42: Sending packet MESSAGE data 0
+2019-11-17 19:20:00,879 [INFO ]  4d654d83165b44a388bd5240f940b0cf: Client is gone, closing socket
+2019-11-17 19:20:00,882 [INFO ]  4d654d83165b44a388bd5240f940b0cf: Client is gone, closing socket
+2019-11-17 19:20:02,282 [INFO ]  f26ae2eeee5f48df8b07bc80fdd45356: Client is gone, closing socket
+2019-11-17 19:20:02,285 [INFO ]  f26ae2eeee5f48df8b07bc80fdd45356: Client is gone, closing socket
+2019-11-17 19:20:03,680 [INFO ]  410a470b8e924d9e91bdfabbc4cb4ffb: Client is gone, closing socket
+2019-11-17 19:20:03,685 [INFO ]  410a470b8e924d9e91bdfabbc4cb4ffb: Client is gone, closing socket
+2019-11-17 19:20:05,085 [INFO ]  483dcdc867f143659b82d1f09061e076: Client is gone, closing socket
+2019-11-17 19:20:05,087 [INFO ]  483dcdc867f143659b82d1f09061e076: Client is gone, closing socket
+2019-11-17 19:20:05,320 [INFO ]  01e49df3cf7c4dac84e353fe4807336c: Sending packet OPEN data {'sid': '01e49df3cf7c4dac84e353fe4807336c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 19:20:05,331 [INFO ]  01e49df3cf7c4dac84e353fe4807336c: Sending packet MESSAGE data 0
+2019-11-17 19:20:06,482 [INFO ]  929cc9919ab04ebf91bfa0660df0982f: Client is gone, closing socket
+2019-11-17 19:20:06,486 [INFO ]  929cc9919ab04ebf91bfa0660df0982f: Client is gone, closing socket
+2019-11-17 19:20:07,888 [INFO ]  54e327342dcf405ca0edcfb8eb1dde9f: Client is gone, closing socket
+2019-11-17 19:20:07,892 [INFO ]  54e327342dcf405ca0edcfb8eb1dde9f: Client is gone, closing socket
+2019-11-17 19:20:08,030 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 1133, in run
+    serve(**server_settings)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 885, in serve
+    loop.run_forever()
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 422, in run_forever
+    self._run_once()
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1396, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\engineio\client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-11-17 19:20:08,351 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<AsyncServer._service_task() running at c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\engineio\asyncio_server.py:456> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x0000009742B10D38>()]>>
+2019-11-17 19:20:08,354 [INFO ]  event loop is closed, exiting service task
+2019-11-17 20:04:21,355 [INFO ]  Server initialized for sanic.
+2019-11-17 20:04:21,359 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-11-17 20:04:29,426 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2019-11-17 20:04:36,018 [INFO ]  6c36c32783f14c8797b76409f48217f5: Sending packet OPEN data {'sid': '6c36c32783f14c8797b76409f48217f5', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:04:36,021 [INFO ]  6c36c32783f14c8797b76409f48217f5: Sending packet MESSAGE data 0
+2019-11-17 20:04:42,324 [INFO ]  49db8410a57f483f8cb27574543b229c: Sending packet OPEN data {'sid': '49db8410a57f483f8cb27574543b229c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:04:42,327 [INFO ]  49db8410a57f483f8cb27574543b229c: Sending packet MESSAGE data 0
+2019-11-17 20:04:49,048 [INFO ]  c53644d446524da5be502eb544e66102: Sending packet OPEN data {'sid': 'c53644d446524da5be502eb544e66102', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:04:49,051 [INFO ]  c53644d446524da5be502eb544e66102: Sending packet MESSAGE data 0
+2019-11-17 20:04:55,322 [INFO ]  d5be0de7136745d682575acd04068b84: Sending packet OPEN data {'sid': 'd5be0de7136745d682575acd04068b84', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:04:55,327 [INFO ]  d5be0de7136745d682575acd04068b84: Sending packet MESSAGE data 0
+2019-11-17 20:05:01,020 [INFO ]  9600eb5459844171baa538ace4a26e55: Sending packet OPEN data {'sid': '9600eb5459844171baa538ace4a26e55', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:01,026 [INFO ]  9600eb5459844171baa538ace4a26e55: Sending packet MESSAGE data 0
+2019-11-17 20:05:07,323 [INFO ]  ced42b837289409bbef58052c979116e: Sending packet OPEN data {'sid': 'ced42b837289409bbef58052c979116e', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:07,329 [INFO ]  ced42b837289409bbef58052c979116e: Sending packet MESSAGE data 0
+2019-11-17 20:05:13,023 [INFO ]  3e47698b3f9f4255bd7e1a4261b1be5c: Sending packet OPEN data {'sid': '3e47698b3f9f4255bd7e1a4261b1be5c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:13,029 [INFO ]  3e47698b3f9f4255bd7e1a4261b1be5c: Sending packet MESSAGE data 0
+2019-11-17 20:05:19,327 [INFO ]  63898ef2f0584c4bbe5ad29546ca37d4: Sending packet OPEN data {'sid': '63898ef2f0584c4bbe5ad29546ca37d4', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:19,331 [INFO ]  63898ef2f0584c4bbe5ad29546ca37d4: Sending packet MESSAGE data 0
+2019-11-17 20:05:25,015 [INFO ]  2a899ad553274558940322a17dd2cc15: Sending packet OPEN data {'sid': '2a899ad553274558940322a17dd2cc15', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:25,018 [INFO ]  2a899ad553274558940322a17dd2cc15: Sending packet MESSAGE data 0
+2019-11-17 20:05:31,321 [INFO ]  91e038697ace4717ab50ad2d7cd04320: Sending packet OPEN data {'sid': '91e038697ace4717ab50ad2d7cd04320', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:31,324 [INFO ]  91e038697ace4717ab50ad2d7cd04320: Sending packet MESSAGE data 0
+2019-11-17 20:05:36,031 [INFO ]  6c36c32783f14c8797b76409f48217f5: Client is gone, closing socket
+2019-11-17 20:05:36,033 [INFO ]  6c36c32783f14c8797b76409f48217f5: Client is gone, closing socket
+2019-11-17 20:05:37,018 [INFO ]  67a5771a005e41ff84eadc6c8af39a5b: Sending packet OPEN data {'sid': '67a5771a005e41ff84eadc6c8af39a5b', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:37,024 [INFO ]  67a5771a005e41ff84eadc6c8af39a5b: Sending packet MESSAGE data 0
+2019-11-17 20:05:42,046 [INFO ]  49db8410a57f483f8cb27574543b229c: Client is gone, closing socket
+2019-11-17 20:05:42,050 [INFO ]  49db8410a57f483f8cb27574543b229c: Client is gone, closing socket
+2019-11-17 20:05:43,321 [INFO ]  67062ab0554843808b0a5f2d136d0b86: Sending packet OPEN data {'sid': '67062ab0554843808b0a5f2d136d0b86', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:43,327 [INFO ]  67062ab0554843808b0a5f2d136d0b86: Sending packet MESSAGE data 0
+2019-11-17 20:05:48,054 [INFO ]  c53644d446524da5be502eb544e66102: Client is gone, closing socket
+2019-11-17 20:05:48,058 [INFO ]  c53644d446524da5be502eb544e66102: Client is gone, closing socket
+2019-11-17 20:05:49,020 [INFO ]  9b9ca672d0664c10990a11b802111b76: Sending packet OPEN data {'sid': '9b9ca672d0664c10990a11b802111b76', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:49,028 [INFO ]  9b9ca672d0664c10990a11b802111b76: Sending packet MESSAGE data 0
+2019-11-17 20:05:54,054 [INFO ]  d5be0de7136745d682575acd04068b84: Client is gone, closing socket
+2019-11-17 20:05:54,058 [INFO ]  d5be0de7136745d682575acd04068b84: Client is gone, closing socket
+2019-11-17 20:05:55,324 [INFO ]  381830a74a3147d68308550fa40555dc: Sending packet OPEN data {'sid': '381830a74a3147d68308550fa40555dc', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:05:55,329 [INFO ]  381830a74a3147d68308550fa40555dc: Sending packet MESSAGE data 0
+2019-11-17 20:06:00,060 [INFO ]  9600eb5459844171baa538ace4a26e55: Client is gone, closing socket
+2019-11-17 20:06:00,064 [INFO ]  9600eb5459844171baa538ace4a26e55: Client is gone, closing socket
+2019-11-17 20:06:01,017 [INFO ]  f5ba82bf28e346649ead1fa9783d9b2c: Sending packet OPEN data {'sid': 'f5ba82bf28e346649ead1fa9783d9b2c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:01,021 [INFO ]  f5ba82bf28e346649ead1fa9783d9b2c: Sending packet MESSAGE data 0
+2019-11-17 20:06:06,074 [INFO ]  ced42b837289409bbef58052c979116e: Client is gone, closing socket
+2019-11-17 20:06:06,077 [INFO ]  ced42b837289409bbef58052c979116e: Client is gone, closing socket
+2019-11-17 20:06:07,323 [INFO ]  7c52a42b0e5d4b70beea621e0e2816cd: Sending packet OPEN data {'sid': '7c52a42b0e5d4b70beea621e0e2816cd', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:07,330 [INFO ]  7c52a42b0e5d4b70beea621e0e2816cd: Sending packet MESSAGE data 0
+2019-11-17 20:06:12,083 [INFO ]  3e47698b3f9f4255bd7e1a4261b1be5c: Client is gone, closing socket
+2019-11-17 20:06:12,086 [INFO ]  3e47698b3f9f4255bd7e1a4261b1be5c: Client is gone, closing socket
+2019-11-17 20:06:13,019 [INFO ]  7d614cbb58024c0689c0ee78f22395ee: Sending packet OPEN data {'sid': '7d614cbb58024c0689c0ee78f22395ee', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:13,024 [INFO ]  7d614cbb58024c0689c0ee78f22395ee: Sending packet MESSAGE data 0
+2019-11-17 20:06:18,079 [INFO ]  63898ef2f0584c4bbe5ad29546ca37d4: Client is gone, closing socket
+2019-11-17 20:06:18,084 [INFO ]  63898ef2f0584c4bbe5ad29546ca37d4: Client is gone, closing socket
+2019-11-17 20:06:19,326 [INFO ]  f712e25d3de44a55b9203e71828c0819: Sending packet OPEN data {'sid': 'f712e25d3de44a55b9203e71828c0819', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:19,334 [INFO ]  f712e25d3de44a55b9203e71828c0819: Sending packet MESSAGE data 0
+2019-11-17 20:06:24,083 [INFO ]  2a899ad553274558940322a17dd2cc15: Client is gone, closing socket
+2019-11-17 20:06:24,087 [INFO ]  2a899ad553274558940322a17dd2cc15: Client is gone, closing socket
+2019-11-17 20:06:25,021 [INFO ]  aebc31d483ff4e7b942c28f6d726232c: Sending packet OPEN data {'sid': 'aebc31d483ff4e7b942c28f6d726232c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:25,026 [INFO ]  aebc31d483ff4e7b942c28f6d726232c: Sending packet MESSAGE data 0
+2019-11-17 20:06:30,081 [INFO ]  91e038697ace4717ab50ad2d7cd04320: Client is gone, closing socket
+2019-11-17 20:06:30,086 [INFO ]  91e038697ace4717ab50ad2d7cd04320: Client is gone, closing socket
+2019-11-17 20:06:31,324 [INFO ]  d0fb1da96cf34842b2940e92e667f066: Sending packet OPEN data {'sid': 'd0fb1da96cf34842b2940e92e667f066', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:31,332 [INFO ]  d0fb1da96cf34842b2940e92e667f066: Sending packet MESSAGE data 0
+2019-11-17 20:06:37,022 [INFO ]  15b73b49627a4cdcb5d66f583311f169: Sending packet OPEN data {'sid': '15b73b49627a4cdcb5d66f583311f169', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:37,028 [INFO ]  15b73b49627a4cdcb5d66f583311f169: Sending packet MESSAGE data 0
+2019-11-17 20:06:43,320 [INFO ]  977724dc4c5a4a12856fb4685a0928cf: Sending packet OPEN data {'sid': '977724dc4c5a4a12856fb4685a0928cf', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:43,324 [INFO ]  977724dc4c5a4a12856fb4685a0928cf: Sending packet MESSAGE data 0
+2019-11-17 20:06:49,017 [INFO ]  1c389e13d58b46c2aa632e38c87a507a: Sending packet OPEN data {'sid': '1c389e13d58b46c2aa632e38c87a507a', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:49,021 [INFO ]  1c389e13d58b46c2aa632e38c87a507a: Sending packet MESSAGE data 0
+2019-11-17 20:06:55,319 [INFO ]  5401e0eec6874f958e0875ccf7d76562: Sending packet OPEN data {'sid': '5401e0eec6874f958e0875ccf7d76562', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:06:55,324 [INFO ]  5401e0eec6874f958e0875ccf7d76562: Sending packet MESSAGE data 0
+2019-11-17 20:07:01,030 [INFO ]  780ef1a3f4ad42c7b81247601e427567: Sending packet OPEN data {'sid': '780ef1a3f4ad42c7b81247601e427567', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:01,038 [INFO ]  780ef1a3f4ad42c7b81247601e427567: Sending packet MESSAGE data 0
+2019-11-17 20:07:06,091 [INFO ]  67a5771a005e41ff84eadc6c8af39a5b: Client is gone, closing socket
+2019-11-17 20:07:06,094 [INFO ]  67a5771a005e41ff84eadc6c8af39a5b: Client is gone, closing socket
+2019-11-17 20:07:08,317 [INFO ]  8a0d63ba235f4878a2aec057c15d0675: Sending packet OPEN data {'sid': '8a0d63ba235f4878a2aec057c15d0675', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:08,323 [INFO ]  8a0d63ba235f4878a2aec057c15d0675: Sending packet MESSAGE data 0
+2019-11-17 20:07:09,097 [INFO ]  67062ab0554843808b0a5f2d136d0b86: Client is gone, closing socket
+2019-11-17 20:07:09,102 [INFO ]  67062ab0554843808b0a5f2d136d0b86: Client is gone, closing socket
+2019-11-17 20:07:12,101 [INFO ]  9b9ca672d0664c10990a11b802111b76: Client is gone, closing socket
+2019-11-17 20:07:12,105 [INFO ]  9b9ca672d0664c10990a11b802111b76: Client is gone, closing socket
+2019-11-17 20:07:14,016 [INFO ]  cd43a255fc8140c7a4a0d8f52d66dce9: Sending packet OPEN data {'sid': 'cd43a255fc8140c7a4a0d8f52d66dce9', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:14,021 [INFO ]  cd43a255fc8140c7a4a0d8f52d66dce9: Sending packet MESSAGE data 0
+2019-11-17 20:07:15,110 [INFO ]  381830a74a3147d68308550fa40555dc: Client is gone, closing socket
+2019-11-17 20:07:15,115 [INFO ]  381830a74a3147d68308550fa40555dc: Client is gone, closing socket
+2019-11-17 20:07:18,121 [INFO ]  f5ba82bf28e346649ead1fa9783d9b2c: Client is gone, closing socket
+2019-11-17 20:07:18,123 [INFO ]  f5ba82bf28e346649ead1fa9783d9b2c: Client is gone, closing socket
+2019-11-17 20:07:20,322 [INFO ]  259cb49ea02d4f8ea58c6d3d3c7fb729: Sending packet OPEN data {'sid': '259cb49ea02d4f8ea58c6d3d3c7fb729', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:20,327 [INFO ]  259cb49ea02d4f8ea58c6d3d3c7fb729: Sending packet MESSAGE data 0
+2019-11-17 20:07:21,137 [INFO ]  7c52a42b0e5d4b70beea621e0e2816cd: Client is gone, closing socket
+2019-11-17 20:07:21,140 [INFO ]  7c52a42b0e5d4b70beea621e0e2816cd: Client is gone, closing socket
+2019-11-17 20:07:24,150 [INFO ]  7d614cbb58024c0689c0ee78f22395ee: Client is gone, closing socket
+2019-11-17 20:07:24,153 [INFO ]  7d614cbb58024c0689c0ee78f22395ee: Client is gone, closing socket
+2019-11-17 20:07:26,022 [INFO ]  db9366f3f9b0458892b761ce6533ef88: Sending packet OPEN data {'sid': 'db9366f3f9b0458892b761ce6533ef88', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:26,032 [INFO ]  db9366f3f9b0458892b761ce6533ef88: Sending packet MESSAGE data 0
+2019-11-17 20:07:27,163 [INFO ]  f712e25d3de44a55b9203e71828c0819: Client is gone, closing socket
+2019-11-17 20:07:27,167 [INFO ]  f712e25d3de44a55b9203e71828c0819: Client is gone, closing socket
+2019-11-17 20:07:30,167 [INFO ]  aebc31d483ff4e7b942c28f6d726232c: Client is gone, closing socket
+2019-11-17 20:07:30,169 [INFO ]  aebc31d483ff4e7b942c28f6d726232c: Client is gone, closing socket
+2019-11-17 20:07:33,171 [INFO ]  d0fb1da96cf34842b2940e92e667f066: Client is gone, closing socket
+2019-11-17 20:07:33,175 [INFO ]  d0fb1da96cf34842b2940e92e667f066: Client is gone, closing socket
+2019-11-17 20:07:33,321 [INFO ]  51aa85b2e6b441cbb0ba8cb1070150bf: Sending packet OPEN data {'sid': '51aa85b2e6b441cbb0ba8cb1070150bf', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:33,331 [INFO ]  51aa85b2e6b441cbb0ba8cb1070150bf: Sending packet MESSAGE data 0
+2019-11-17 20:07:40,021 [INFO ]  edf85840d29043ab9364e73af265e182: Sending packet OPEN data {'sid': 'edf85840d29043ab9364e73af265e182', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:40,026 [INFO ]  edf85840d29043ab9364e73af265e182: Sending packet MESSAGE data 0
+2019-11-17 20:07:46,322 [INFO ]  452252adcc4b44e7b21ba6601d37efef: Sending packet OPEN data {'sid': '452252adcc4b44e7b21ba6601d37efef', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:46,327 [INFO ]  452252adcc4b44e7b21ba6601d37efef: Sending packet MESSAGE data 0
+2019-11-17 20:07:52,017 [INFO ]  3e7b913f44914b47af45b5217ece925e: Sending packet OPEN data {'sid': '3e7b913f44914b47af45b5217ece925e', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:52,025 [INFO ]  3e7b913f44914b47af45b5217ece925e: Sending packet MESSAGE data 0
+2019-11-17 20:07:58,324 [INFO ]  47cdd5773edc4ee5a3396fd1d21c9ae7: Sending packet OPEN data {'sid': '47cdd5773edc4ee5a3396fd1d21c9ae7', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:07:58,332 [INFO ]  47cdd5773edc4ee5a3396fd1d21c9ae7: Sending packet MESSAGE data 0
+2019-11-17 20:08:04,020 [INFO ]  66b12b43c53c4fd8a5b231308597dee4: Sending packet OPEN data {'sid': '66b12b43c53c4fd8a5b231308597dee4', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:04,026 [INFO ]  66b12b43c53c4fd8a5b231308597dee4: Sending packet MESSAGE data 0
+2019-11-17 20:08:10,323 [INFO ]  aeb3a6b465924fe2859a5adbc12c6ea6: Sending packet OPEN data {'sid': 'aeb3a6b465924fe2859a5adbc12c6ea6', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:10,331 [INFO ]  aeb3a6b465924fe2859a5adbc12c6ea6: Sending packet MESSAGE data 0
+2019-11-17 20:08:16,021 [INFO ]  2f0c299fd7484df08af9be942037c09c: Sending packet OPEN data {'sid': '2f0c299fd7484df08af9be942037c09c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:16,027 [INFO ]  2f0c299fd7484df08af9be942037c09c: Sending packet MESSAGE data 0
+2019-11-17 20:08:16,190 [INFO ]  15b73b49627a4cdcb5d66f583311f169: Client is gone, closing socket
+2019-11-17 20:08:16,194 [INFO ]  15b73b49627a4cdcb5d66f583311f169: Client is gone, closing socket
+2019-11-17 20:08:18,188 [INFO ]  977724dc4c5a4a12856fb4685a0928cf: Client is gone, closing socket
+2019-11-17 20:08:18,191 [INFO ]  977724dc4c5a4a12856fb4685a0928cf: Client is gone, closing socket
+2019-11-17 20:08:20,197 [INFO ]  1c389e13d58b46c2aa632e38c87a507a: Client is gone, closing socket
+2019-11-17 20:08:20,200 [INFO ]  1c389e13d58b46c2aa632e38c87a507a: Client is gone, closing socket
+2019-11-17 20:08:22,207 [INFO ]  5401e0eec6874f958e0875ccf7d76562: Client is gone, closing socket
+2019-11-17 20:08:22,210 [INFO ]  5401e0eec6874f958e0875ccf7d76562: Client is gone, closing socket
+2019-11-17 20:08:23,322 [INFO ]  ca5b020fc3c04ddea1d76313935fcb14: Sending packet OPEN data {'sid': 'ca5b020fc3c04ddea1d76313935fcb14', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:23,331 [INFO ]  ca5b020fc3c04ddea1d76313935fcb14: Sending packet MESSAGE data 0
+2019-11-17 20:08:24,213 [INFO ]  780ef1a3f4ad42c7b81247601e427567: Client is gone, closing socket
+2019-11-17 20:08:24,218 [INFO ]  780ef1a3f4ad42c7b81247601e427567: Client is gone, closing socket
+2019-11-17 20:08:26,220 [INFO ]  8a0d63ba235f4878a2aec057c15d0675: Client is gone, closing socket
+2019-11-17 20:08:26,224 [INFO ]  8a0d63ba235f4878a2aec057c15d0675: Client is gone, closing socket
+2019-11-17 20:08:28,229 [INFO ]  cd43a255fc8140c7a4a0d8f52d66dce9: Client is gone, closing socket
+2019-11-17 20:08:28,233 [INFO ]  cd43a255fc8140c7a4a0d8f52d66dce9: Client is gone, closing socket
+2019-11-17 20:08:29,015 [INFO ]  1e46d4da16e54c559524d1771efe39da: Sending packet OPEN data {'sid': '1e46d4da16e54c559524d1771efe39da', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:29,018 [INFO ]  1e46d4da16e54c559524d1771efe39da: Sending packet MESSAGE data 0
+2019-11-17 20:08:30,246 [INFO ]  259cb49ea02d4f8ea58c6d3d3c7fb729: Client is gone, closing socket
+2019-11-17 20:08:30,250 [INFO ]  259cb49ea02d4f8ea58c6d3d3c7fb729: Client is gone, closing socket
+2019-11-17 20:08:32,252 [INFO ]  db9366f3f9b0458892b761ce6533ef88: Client is gone, closing socket
+2019-11-17 20:08:32,256 [INFO ]  db9366f3f9b0458892b761ce6533ef88: Client is gone, closing socket
+2019-11-17 20:08:34,261 [INFO ]  51aa85b2e6b441cbb0ba8cb1070150bf: Client is gone, closing socket
+2019-11-17 20:08:34,266 [INFO ]  51aa85b2e6b441cbb0ba8cb1070150bf: Client is gone, closing socket
+2019-11-17 20:08:35,324 [INFO ]  469b853bc32d4e1789f9f3e1809b080f: Sending packet OPEN data {'sid': '469b853bc32d4e1789f9f3e1809b080f', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:35,329 [INFO ]  469b853bc32d4e1789f9f3e1809b080f: Sending packet MESSAGE data 0
+2019-11-17 20:08:41,320 [INFO ]  52fdef48a2874f41b7cff4e125f7eadf: Sending packet OPEN data {'sid': '52fdef48a2874f41b7cff4e125f7eadf', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:41,324 [INFO ]  52fdef48a2874f41b7cff4e125f7eadf: Sending packet MESSAGE data 0
+2019-11-17 20:08:47,019 [INFO ]  73c5a847d13940619539d2e961a06d86: Sending packet OPEN data {'sid': '73c5a847d13940619539d2e961a06d86', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:47,027 [INFO ]  73c5a847d13940619539d2e961a06d86: Sending packet MESSAGE data 0
+2019-11-17 20:08:53,361 [INFO ]  c2dcb907e17442e2856e97d613ffea53: Sending packet OPEN data {'sid': 'c2dcb907e17442e2856e97d613ffea53', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:53,367 [INFO ]  c2dcb907e17442e2856e97d613ffea53: Sending packet MESSAGE data 0
+2019-11-17 20:08:59,025 [INFO ]  205d5934dade4ef885d489efd6a53757: Sending packet OPEN data {'sid': '205d5934dade4ef885d489efd6a53757', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:08:59,036 [INFO ]  205d5934dade4ef885d489efd6a53757: Sending packet MESSAGE data 0
+2019-11-17 20:09:06,319 [INFO ]  342076b55d6b45a6babc5a8fb0f223ca: Sending packet OPEN data {'sid': '342076b55d6b45a6babc5a8fb0f223ca', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:09:06,325 [INFO ]  342076b55d6b45a6babc5a8fb0f223ca: Sending packet MESSAGE data 0
+2019-11-17 20:09:12,321 [INFO ]  10d64c674d8747959072f3ebcb9f3b94: Sending packet OPEN data {'sid': '10d64c674d8747959072f3ebcb9f3b94', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:09:12,328 [INFO ]  10d64c674d8747959072f3ebcb9f3b94: Sending packet MESSAGE data 0
+2019-11-17 20:09:18,017 [INFO ]  fa70d8ee01574afda09913f40337e12c: Sending packet OPEN data {'sid': 'fa70d8ee01574afda09913f40337e12c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:09:18,025 [INFO ]  fa70d8ee01574afda09913f40337e12c: Sending packet MESSAGE data 0
+2019-11-17 20:09:21,291 [INFO ]  edf85840d29043ab9364e73af265e182: Client is gone, closing socket
+2019-11-17 20:09:21,293 [INFO ]  edf85840d29043ab9364e73af265e182: Client is gone, closing socket
+2019-11-17 20:09:22,795 [INFO ]  452252adcc4b44e7b21ba6601d37efef: Client is gone, closing socket
+2019-11-17 20:09:22,797 [INFO ]  452252adcc4b44e7b21ba6601d37efef: Client is gone, closing socket
+2019-11-17 20:09:24,300 [INFO ]  3e7b913f44914b47af45b5217ece925e: Client is gone, closing socket
+2019-11-17 20:09:24,302 [INFO ]  3e7b913f44914b47af45b5217ece925e: Client is gone, closing socket
+2019-11-17 20:09:24,338 [INFO ]  7a671b31f2a541fa9a966f5f8a00d4ca: Sending packet OPEN data {'sid': '7a671b31f2a541fa9a966f5f8a00d4ca', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:09:24,341 [INFO ]  7a671b31f2a541fa9a966f5f8a00d4ca: Sending packet MESSAGE data 0
+2019-11-17 20:09:25,243 [INFO ]  f2c0f68f7fd741fd920ad6e99f4c5fc2: Sending packet OPEN data {'sid': 'f2c0f68f7fd741fd920ad6e99f4c5fc2', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:09:25,246 [INFO ]  f2c0f68f7fd741fd920ad6e99f4c5fc2: Sending packet MESSAGE data 0
+2019-11-17 20:09:25,798 [INFO ]  47cdd5773edc4ee5a3396fd1d21c9ae7: Client is gone, closing socket
+2019-11-17 20:09:25,801 [INFO ]  47cdd5773edc4ee5a3396fd1d21c9ae7: Client is gone, closing socket
+2019-11-17 20:09:25,974 [INFO ]  9bf1c2e99d2a4d33bead77cb8aeb0029: Sending packet OPEN data {'sid': '9bf1c2e99d2a4d33bead77cb8aeb0029', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:09:25,977 [INFO ]  9bf1c2e99d2a4d33bead77cb8aeb0029: Sending packet MESSAGE data 0
+2019-11-17 20:09:27,311 [INFO ]  66b12b43c53c4fd8a5b231308597dee4: Client is gone, closing socket
+2019-11-17 20:09:27,313 [INFO ]  66b12b43c53c4fd8a5b231308597dee4: Client is gone, closing socket
+2019-11-17 20:09:27,785 [INFO ]  8a61698fbffa4860a0fb4edbde0e7ef5: Sending packet OPEN data {'sid': '8a61698fbffa4860a0fb4edbde0e7ef5', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:09:27,785 [INFO ]  8a61698fbffa4860a0fb4edbde0e7ef5: Sending packet MESSAGE data 0
+2019-11-17 20:09:28,816 [INFO ]  aeb3a6b465924fe2859a5adbc12c6ea6: Client is gone, closing socket
+2019-11-17 20:09:28,818 [INFO ]  aeb3a6b465924fe2859a5adbc12c6ea6: Client is gone, closing socket
+2019-11-17 20:09:30,320 [INFO ]  2f0c299fd7484df08af9be942037c09c: Client is gone, closing socket
+2019-11-17 20:09:30,323 [INFO ]  2f0c299fd7484df08af9be942037c09c: Client is gone, closing socket
+2019-11-17 20:09:30,351 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 1133, in run
+    serve(**server_settings)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 885, in serve
+    loop.run_forever()
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 422, in run_forever
+    self._run_once()
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1396, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\users\admin\appdata\local\programs\python\python36\lib\site-packages\engineio\client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-11-17 20:11:04,656 [INFO ]  Server initialized for sanic.
+2019-11-17 20:11:04,662 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-11-17 20:11:12,533 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2019-11-17 20:11:28,885 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet OPEN data {'sid': '704e2a53499a46aab82609349a500720', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:11:28,890 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet MESSAGE data 0
+2019-11-17 20:11:28,944 [INFO ]  704e2a53499a46aab82609349a500720: Received packet MESSAGE data 2["session_request",{"session_id":"151bfe9bd4e047a6a3724c16724b7e9d"}]
+2019-11-17 20:11:28,950 [INFO ]  received event "session_request" from 704e2a53499a46aab82609349a500720 [/]
+2019-11-17 20:11:28,957 [INFO ]  emitting event "session_confirm" to 704e2a53499a46aab82609349a500720 [/]
+2019-11-17 20:11:28,962 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet MESSAGE data 2["session_confirm","151bfe9bd4e047a6a3724c16724b7e9d"]
+2019-11-17 20:11:29,238 [INFO ]  704e2a53499a46aab82609349a500720: Received request to upgrade to websocket
+2019-11-17 20:11:29,257 [INFO ]  704e2a53499a46aab82609349a500720: Upgrade to websocket successful
+2019-11-17 20:11:53,941 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:11:53,947 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:12:18,957 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:12:18,964 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:12:43,976 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:12:43,981 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:13:08,991 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:13:08,997 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:13:34,005 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:13:34,010 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:13:59,022 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:13:59,027 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:14:24,048 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:14:24,050 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:14:49,056 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:14:49,058 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:15:14,065 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:15:14,070 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:15:39,079 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:15:39,083 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:16:04,090 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:16:04,095 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:16:29,105 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:16:29,110 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:16:54,120 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:16:54,125 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:17:19,134 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:17:19,137 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:17:44,147 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:17:44,151 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:18:09,160 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:18:09,165 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:18:34,174 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:18:34,179 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:18:59,189 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:18:59,194 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:19:24,204 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:19:24,209 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:19:49,219 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:19:49,222 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:20:14,230 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:20:14,234 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:20:39,244 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:20:39,248 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:21:04,256 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:21:04,260 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:21:29,270 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:21:29,275 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:21:54,284 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:21:54,290 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:22:19,299 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:22:19,304 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:22:44,312 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:22:44,317 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:23:09,325 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:23:09,330 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:23:34,339 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:23:34,347 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:23:59,359 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:23:59,364 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:24:24,373 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:24:24,378 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:24:49,386 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:24:49,387 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:25:14,394 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:25:14,398 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:25:39,407 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:25:39,412 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:26:04,420 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:26:04,429 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:26:29,438 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:26:29,443 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:26:54,452 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:26:54,459 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:27:19,471 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:27:19,475 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:27:44,485 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:27:44,490 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:28:09,500 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:28:09,505 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:28:34,514 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:28:34,518 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:28:59,526 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:28:59,531 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:29:24,543 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:29:24,549 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:29:49,558 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:29:49,563 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:30:14,571 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:30:14,576 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:30:39,585 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:30:39,593 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:31:04,605 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:31:04,610 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:31:29,619 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:31:29,622 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:31:54,633 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:31:54,637 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:32:19,646 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:32:19,651 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:32:44,661 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:32:44,665 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:33:09,674 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:33:09,679 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:33:34,688 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:33:34,693 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:33:59,703 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:33:59,708 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:34:24,716 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:34:24,721 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:34:49,730 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:34:49,732 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:35:14,738 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:35:14,743 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:35:39,753 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:35:39,755 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:36:04,761 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:36:04,766 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:36:29,774 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:36:29,778 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:36:54,787 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:36:54,792 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:37:19,801 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:37:19,807 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:37:44,816 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:37:44,821 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:38:09,829 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:38:09,834 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:38:34,843 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:38:34,848 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:38:59,857 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:38:59,862 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:39:24,872 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:39:24,877 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:39:49,887 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:39:49,892 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:40:14,902 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:40:14,907 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:40:39,916 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:40:39,921 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:41:04,929 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:41:04,934 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:41:29,943 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:41:29,948 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:41:54,957 [INFO ]  704e2a53499a46aab82609349a500720: Received packet PING data None
+2019-11-17 20:41:54,962 [INFO ]  704e2a53499a46aab82609349a500720: Sending packet PONG data None
+2019-11-17 20:57:34,121 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet OPEN data {'sid': 'a432798d4ff64336ae2454ad024997f1', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-17 20:57:34,127 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 0
+2019-11-17 20:57:34,147 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet MESSAGE data 2["session_request",{"session_id":"151bfe9bd4e047a6a3724c16724b7e9d"}]
+2019-11-17 20:57:34,150 [INFO ]  received event "session_request" from a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 20:57:34,160 [INFO ]  emitting event "session_confirm" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 20:57:34,166 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["session_confirm","151bfe9bd4e047a6a3724c16724b7e9d"]
+2019-11-17 20:57:34,447 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received request to upgrade to websocket
+2019-11-17 20:57:34,470 [INFO ]  a432798d4ff64336ae2454ad024997f1: Upgrade to websocket successful
+2019-11-17 20:57:59,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 20:57:59,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 20:58:25,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 20:58:25,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 20:58:51,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 20:58:51,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 20:59:17,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 20:59:17,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 20:59:43,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 20:59:43,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:00:09,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:00:09,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:00:35,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:00:35,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:01:01,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:01:01,900 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:01:27,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:01:27,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:01:53,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:01:53,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:02:19,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:02:19,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:02:45,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:02:45,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:03:11,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:03:11,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:03:37,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:03:37,902 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:04:03,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:04:03,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:04:29,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:04:29,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:04:55,927 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:04:55,930 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:05:21,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:05:21,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:05:46,934 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:05:46,937 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:06:12,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:06:12,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:06:38,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:06:38,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:07:04,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:07:04,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:07:30,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:07:30,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:07:56,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:07:56,898 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:08:22,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:08:22,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:08:48,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:08:48,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:09:14,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:09:14,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:09:40,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:09:40,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:10:06,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:10:06,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:10:32,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:10:32,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:10:58,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:10:58,898 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:11:24,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:11:24,897 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:11:50,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:11:50,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:12:16,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:12:16,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:12:42,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:12:42,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:13:08,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:13:08,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:13:34,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:13:34,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:14:00,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:14:00,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:14:26,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:14:26,897 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:14:52,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:14:52,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:15:19,060 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:15:19,062 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:15:44,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:15:44,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:16:10,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:16:10,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:16:36,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:16:36,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:17:02,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:17:02,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:17:28,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:17:28,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:17:54,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:17:54,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:18:20,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:18:20,898 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:18:46,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:18:46,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:19:12,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:19:12,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:19:37,905 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:19:37,916 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:20:03,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:20:03,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:20:29,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:20:29,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:20:55,899 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:20:55,903 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:21:20,936 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:21:20,941 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:21:46,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:21:46,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:22:12,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:22:12,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:22:38,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:22:38,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:23:04,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:23:04,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:23:30,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:23:30,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:23:56,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:23:56,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:24:22,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:24:22,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:24:48,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:24:48,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:25:14,892 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:25:14,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:25:40,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:25:40,897 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:26:06,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:26:06,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:26:32,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:26:32,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:26:58,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:26:58,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:27:24,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:27:24,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:27:50,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:27:50,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:28:16,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:28:16,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:28:42,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:28:42,895 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:29:08,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:29:08,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:29:34,937 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:29:34,941 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:30:00,890 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:30:00,897 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:30:26,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:30:26,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:30:52,893 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:30:52,897 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:31:18,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:31:18,896 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:31:44,889 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:31:44,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:32:09,900 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:32:09,905 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:32:34,914 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:32:34,919 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:32:59,926 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:32:59,931 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:33:24,943 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:33:24,955 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:33:49,965 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:33:49,969 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:34:14,982 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:34:14,986 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:34:39,994 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:34:39,997 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:35:05,004 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:35:05,008 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:35:30,016 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:35:30,018 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:35:55,025 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:35:55,028 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:36:20,034 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:36:20,037 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:36:45,049 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:36:45,053 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:37:10,063 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:37:10,066 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:37:35,075 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:37:35,081 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:38:00,089 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:38:00,093 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:38:25,102 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:38:25,104 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:38:50,112 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:38:50,121 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:39:15,129 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:39:15,134 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:39:40,142 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:39:40,148 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:40:05,157 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:40:05,161 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:40:30,169 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:40:30,171 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:40:55,182 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:40:55,186 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:41:20,194 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:41:20,196 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:41:45,202 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:41:45,206 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:42:10,220 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:42:10,222 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:42:35,233 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:42:35,236 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:43:00,245 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:43:00,248 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:43:25,254 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:43:25,257 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:43:50,265 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:43:50,269 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:44:15,277 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:44:15,283 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:44:40,292 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:44:40,294 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:45:05,301 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:45:05,307 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:45:30,318 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:45:30,321 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:45:55,331 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:45:55,335 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:46:20,342 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:46:20,347 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:46:45,356 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:46:45,359 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:47:10,369 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:47:10,372 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:47:35,380 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:47:35,385 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:48:00,393 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:48:00,397 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:48:25,406 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:48:25,408 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:48:50,416 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:48:50,419 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:49:15,428 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:49:15,434 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:49:40,448 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:49:40,453 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:50:05,463 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:50:05,468 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:50:30,478 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:50:30,485 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:50:55,493 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:50:55,497 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:51:20,507 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:51:20,510 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:51:45,521 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:51:45,524 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:52:10,532 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:52:10,591 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:52:35,600 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:52:35,602 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:53:00,613 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:53:00,621 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:53:25,629 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:53:25,635 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:53:50,643 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:53:50,646 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:54:15,658 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:54:15,661 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:54:40,669 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:54:40,671 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:55:05,676 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:55:05,679 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:55:30,690 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:55:30,693 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:55:55,705 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:55:55,707 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:56:20,713 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:56:20,719 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:56:45,729 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:56:45,737 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:57:10,743 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:57:10,746 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:57:35,755 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:57:35,760 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:58:00,770 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:58:00,772 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:58:25,777 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:58:25,782 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:58:50,792 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:58:50,794 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:59:15,805 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:59:15,807 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 21:59:40,818 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 21:59:40,821 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:00:05,829 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:00:05,834 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:00:30,843 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:00:30,847 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:00:55,855 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:00:55,858 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:01:20,863 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:01:20,865 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:01:45,871 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:01:45,873 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:02:10,880 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:02:10,884 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:02:35,891 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:02:35,894 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:03:00,944 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:03:00,948 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:03:26,000 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:03:26,008 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:03:51,018 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:03:51,021 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:04:16,035 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:04:16,037 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:04:41,044 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:04:41,047 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:05:06,055 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:05:06,057 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:05:31,064 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:05:31,069 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:05:56,076 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:05:56,078 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:06:21,086 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:06:21,091 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:06:46,098 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:06:46,100 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:07:11,106 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:07:11,108 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:07:36,114 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:07:36,177 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:08:01,188 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:08:01,191 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:08:26,200 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:08:26,207 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:08:51,214 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:08:51,217 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:09:16,224 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:09:16,226 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:09:41,236 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:09:41,240 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:10:06,246 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:10:06,255 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:10:31,261 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:10:31,272 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:10:56,285 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:10:56,288 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:11:21,295 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:11:21,299 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:11:46,310 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:11:46,313 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:12:11,321 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:12:11,324 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:12:36,379 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:12:36,380 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:13:01,392 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:13:01,396 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:13:26,410 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:13:26,416 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:13:51,429 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:13:51,434 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:14:16,448 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:14:16,450 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:14:36,402 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet MESSAGE data 2["user_uttered",{"message":"hello4","customData":{"userId":"123"},"session_id":"151bfe9bd4e047a6a3724c16724b7e9d"}]
+2019-11-17 22:14:36,418 [INFO ]  received event "user_uttered" from a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:37,106 [INFO ]  emitting event "bot_uttered" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:37,109 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["bot_uttered",{"text":"Hey! How are you?"}]
+2019-11-17 22:14:41,461 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:14:41,466 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:14:41,878 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet MESSAGE data 2["user_uttered",{"message":"iui","customData":{"userId":"123"},"session_id":"151bfe9bd4e047a6a3724c16724b7e9d"}]
+2019-11-17 22:14:41,884 [INFO ]  received event "user_uttered" from a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:41,901 [INFO ]  emitting event "bot_uttered" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:41,905 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["bot_uttered",{"text":"Great, carry on!"}]
+2019-11-17 22:14:44,875 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet MESSAGE data 2["user_uttered",{"message":"kug","customData":{"userId":"123"},"session_id":"151bfe9bd4e047a6a3724c16724b7e9d"}]
+2019-11-17 22:14:44,880 [INFO ]  received event "user_uttered" from a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:44,897 [INFO ]  emitting event "bot_uttered" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:44,903 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["bot_uttered",{"text":"Hey! How are you?"}]
+2019-11-17 22:14:46,916 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet MESSAGE data 2["user_uttered",{"message":"lkj","customData":{"userId":"123"},"session_id":"151bfe9bd4e047a6a3724c16724b7e9d"}]
+2019-11-17 22:14:46,927 [INFO ]  received event "user_uttered" from a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:46,944 [INFO ]  emitting event "bot_uttered" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:46,948 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["bot_uttered",{"text":"Great, carry on!"}]
+2019-11-17 22:14:48,994 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet MESSAGE data 2["user_uttered",{"message":"kjg'","customData":{"userId":"123"},"session_id":"151bfe9bd4e047a6a3724c16724b7e9d"}]
+2019-11-17 22:14:48,999 [INFO ]  received event "user_uttered" from a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:49,017 [INFO ]  emitting event "bot_uttered" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:49,020 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["bot_uttered",{"text":"Hey! How are you?"}]
+2019-11-17 22:14:58,489 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet MESSAGE data 2["user_uttered",{"message":"sad","customData":{"userId":"123"},"session_id":"151bfe9bd4e047a6a3724c16724b7e9d"}]
+2019-11-17 22:14:58,494 [INFO ]  received event "user_uttered" from a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:58,511 [INFO ]  emitting event "bot_uttered" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:58,514 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["bot_uttered",{"text":"Here is something to cheer you up:"}]
+2019-11-17 22:14:58,522 [INFO ]  emitting event "bot_uttered" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:58,526 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["bot_uttered",{"attachment":{"type":"image","payload":{"src":"https://i.imgur.com/nGF1K8f.jpg"}}}]
+2019-11-17 22:14:58,539 [INFO ]  emitting event "bot_uttered" to a432798d4ff64336ae2454ad024997f1 [/]
+2019-11-17 22:14:58,542 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet MESSAGE data 2["bot_uttered",{"text":"Did that help you?"}]
+2019-11-17 22:15:06,475 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:15:06,478 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:15:31,489 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:15:31,493 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:15:56,506 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:15:56,509 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:16:21,515 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:16:21,518 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
+2019-11-17 22:16:46,526 [INFO ]  a432798d4ff64336ae2454ad024997f1: Received packet PING data None
+2019-11-17 22:16:46,528 [INFO ]  a432798d4ff64336ae2454ad024997f1: Sending packet PONG data None
